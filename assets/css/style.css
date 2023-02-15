@@ -1,0 +1,279 @@
+/* #DFAA5B */
+
+@font-face {
+    font-family: "Ubuntu-light";
+    src: url('../fonts/Ubuntu-Light.ttf');
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url('../fonts/Ubuntu-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Ubuntu';
+    font-size: 10px;
+    color: #DFAA5B ;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+#LogoHeader{
+    width: 151px;
+    align-self: center;
+    margin-top: 2.5%;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5%; 
+    padding-bottom: 1.5%;
+    width: 100%;
+}
+
+header nav a {
+    padding: 1.5% 1.5%;
+    text-decoration: none;
+    font-size: 2.4rem;
+    color: #DFAA5B
+}
+
+header nav a:hover {
+    color: #957554
+}
+
+#Lupe{
+    width: 2rem;
+    align-self:center;
+}
+
+.Welcome{
+    background-image: url("../img/hero_image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.Welcome h1{
+    font-family: 'Ubuntu-light';
+    font-size: 8rem;
+    padding-top: 6%;
+}
+
+.Welcome h3{
+    font-size: 2.4rem;
+    padding: 2% 0 3% 0;
+}
+
+.Welcome a{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 1% 5%;
+    background-color: #DFAA5B;
+    border-radius: 8px;
+}
+
+.Welcome a:hover{
+    background-color:#957554;
+}
+
+.Facilities{
+    color: #957554;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Facilities h2{
+    font-size: 4rem;
+    margin-top: 2%;
+}
+
+.Facilities div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7%;
+}
+
+.Facilities div figure{
+    padding: 10% 30%;
+    text-align: center;
+}
+
+.Facilities div figure figcaption{
+    font-size: 1.7rem;
+}
+
+.Gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 10%;
+}
+
+.RoomsRates h2{
+    font-size: 4rem;
+    margin-top: 2%;
+    color: #957554;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.Room{
+    width: 40%;
+    text-align: center;
+    padding: 15vh 0 5vh 0;
+    border-radius: 10px;
+}
+
+.Room h3{
+    color:white;
+    font-size: 2.3rem;
+    padding-top: 40%;
+    padding-bottom: 4%;
+
+}
+
+.Room a{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 2% 4%;
+    background-color: #DFAA5B;
+    border-radius: 8px;
+}
+
+.Room a:hover{
+    background-color: #957554 ;
+}
+
+.Room:nth-of-type(1){
+    background-image: url("../img/standard_twin_room.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Room:nth-of-type(2){
+    background-image: url("../img/standard_room.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Room:nth-of-type(3){
+    background-image: url("../img/standard_view_room.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Room:nth-of-type(4){
+    background-image: url("../img/deluxe_room.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.BookNow{
+    margin-bottom: 7%;
+}
+
+.BookNow h2{
+    font-size: 4rem;
+    margin-top: 2%;
+    color: #957554;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.BookNow a{
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    padding:1% 7%;
+    background-color: #DFAA5B;
+    border-radius: 8px;
+    margin-left: 40%;
+}
+
+.BookNow a:hover{
+    background-color: #957554;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 3% 2% 3%;
+    color: white;
+}
+
+footer div img{
+    height: 70%;
+}
+
+footer div p{
+    padding: 4% ;
+    font-size: 1.3rem;
+}
+
+footer ul{
+    list-style: none;
+
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    line-height: 3rem;
+}
+
+footer form{
+    display: flex;
+    flex-direction: column;
+    width:19%;
+    justify-content: center;
+}
+
+footer form h4{
+    font-size: 1.5rem;
+    padding-bottom: 4%;
+}
+
+footer form input{
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-bottom: 4%;
+    border-radius: 5px;
+    border:none;
+}
+
+footer form input:nth-of-type(1){
+    padding-left: 5%;
+}
+
+
+footer form input:nth-of-type(2){
+    background-color: #DFAA5B;
+    color: white;
+}
